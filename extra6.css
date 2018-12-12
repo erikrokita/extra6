@@ -1,0 +1,42 @@
+body{
+	background: radial-gradient(circle, rgb(100, 100, 100) 5%, rgb(20, 20, 20) 40%);
+	overflow: hidden;
+}
+
+.beginTxt, #levelLoader{
+	position: absolute;
+	color: #ffffff;
+	text-align: center;
+	font-size: 300%;
+}
+.levelInfo{
+	/*color: rgba(0, 0, 0, 0);*/
+	text-align: left;
+}
+.spacePad{
+	position: absolute;
+	width: 20%;
+	border-radius: 200px;
+	height: auto;
+	left: 40.365%;
+	top: 35.1%;
+	overflow: hidden;
+}
+
+#player{
+	position: relative;
+	border-radius: 100px;
+	width: 10%;
+	height: auto;
+	left: 44.85%;
+	top: 39%;
+	overflow: hidden;
+}
+#levelLoader{
+	top: 70%;
+	font-size: 100%;
+}
+#reloadlvl{
+	top: 10%;
+	font-size: 150%;
+}
