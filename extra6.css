@@ -1,5 +1,6 @@
 body{
-	background: radial-gradient(circle, rgb(100, 100, 100) 5%, rgb(20, 20, 20) 40%);
+	/*background: radial-gradient(circle, rgb(100, 100, 100) 5%, rgb(20, 20, 20) 40%);*/
+	background-color: rgb(20, 20, 20);
 	overflow: hidden;
 }
 
