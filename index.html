@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>extra 6</title>
+		<link rel="stylesheet" href="extra6.css">
+	</head>
+	<body>
+		<h4 class="beginTxt">Press enter to begin!</h4>
+		<h6 class="beginTxt" id="reloadlvl">Press / to reload levels</h6>
+		
+		<img id="player" src="player.png" alt="player" height="200" width="200"></img>
+		
+		<div id="levelLoader">
+			<h4>loading levels...</h4>
+			<h6 class="levelInfo" id="lvlBpm0">100</h6>
+			<h6 class="levelInfo" id="lvlName0">Test</h6>
+			<h6 class="levelInfo" id="lvlLevel0"></h6>
+			<h6 class="levelInfo" id="lvlBpm1">120</h6>
+			<h6 class="levelInfo" id="lvlName1">SomeSong</h6>
+			<h6 class="levelInfo" id="lvlLevel1"></h6>
+			<!--use h6 tags and the ID convention above to build your own levels below-->
+			
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!--links jquery-->
+		<script src="level0.js"></script>	<!--links js file-->
+		<script src="level1.js"></script>	<!--links js file-->
+		<!--copy-paste top level script below to link your js level file (make new file)-->
+		
+		<script>
+			//insert level text into html tag for handler to grab (change value for how many levels to load)
+			var levelcount = 2;
+			$("#lvlLevel0").html(level0);
+			$("#lvlLevel1").html(level1);
+			//copy-paste above line below and change the id to appropraiate id for your level, as well as change the variable name
+			
+		</script>
+		<script src="extra6.js"></script>	<!--links js file-->
+	</body>
+</html>
